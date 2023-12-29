@@ -13,10 +13,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-#### GitHub status
+<img align="right" width="450" src="https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=true&icon_color=0078e7&title_color=0078e7&include_all_commits=true"/>
 
-![]([https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=truee&include_all_commits=true&hide=prs&card_width=1000](https://github-readme-stats.vercel.app/api?username=YunYouJun&show_icons=true&icon_color=0078e7&title_color=0078e7&include_all_commits=true"))
+### language
 
-### 语言
 <code><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="21px" height="21px"></code>
 <code><img src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg" alt="Typescript" width="21px" height="21px"></code>
+
+### framework
+
+<code><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" alt="JavaScript" width="21px" height="21px"></code>
+<code><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="JavaScript" width="21px" height="21px"></code>
+<code><img src="https://github.com/get-icon/geticon/raw/master/icons/electron.svg" alt="JavaScript" width="21px" height="21px"></code>
