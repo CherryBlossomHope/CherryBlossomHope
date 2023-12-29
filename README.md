@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 #### GitHub status
 
-![](https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=truee&include_all_commits=true&hide=prs&card_width=1000)
+![]([https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=truee&include_all_commits=true&hide=prs&card_width=1000](https://github-readme-stats.vercel.app/api?username=YunYouJun&show_icons=true&icon_color=0078e7&title_color=0078e7&include_all_commits=true"))
 
 ### 语言
 <code><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="21px" height="21px"></code>
