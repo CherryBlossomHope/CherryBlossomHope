@@ -13,6 +13,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+#### GitHub status
+
+![](https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=truee&include_all_commits=true&hide=prs&card_width=1000)
+
 ### 语言
 <code><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="21px" height="21px"></code>
 <code><img src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg" alt="Typescript" width="21px" height="21px"></code>
