@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 ### framework
 
-[![My Skills](https://skillicons.dev/icons?i=vue,react&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,react,electron&theme=light)](https://skillicons.dev)
 
 ### other
 
