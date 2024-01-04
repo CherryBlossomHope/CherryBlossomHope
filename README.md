@@ -15,11 +15,13 @@ Here are some ideas to get you started:
 
 ### language
 
-<code><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="21px" height="21px"></code>
-<code><img src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg" alt="Typescript" width="21px" height="21px"></code>
+[![My Skills](https://skillicons.dev/icons?i=js,ts,rust)](https://skillicons.dev)
 
 ### framework
 
-<code><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" alt="JavaScript" width="21px" height="21px"></code>
-<code><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="JavaScript" width="21px" height="21px"></code>
-<code><img src="https://github.com/get-icon/geticon/raw/master/icons/electron.svg" alt="JavaScript" width="21px" height="21px"></code>
+[![My Skills](https://skillicons.dev/icons?i=vue,react&theme=light)](https://skillicons.dev)
+
+### other
+
+[![My Skills](https://skillicons.dev/icons?i=webpack,vite&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=wasm)](https://skillicons.dev)
