@@ -35,14 +35,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-        run: pnpm install -C docs
+        run: pnpm run install:docs
       - name: Build with Rspress
         run: |
-          pnpm run -C docs build
+          pnpm run build:docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./docs/doc_build
+          path: docs/doc_build
 
   # Deployment job
   deploy:
