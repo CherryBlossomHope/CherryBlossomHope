@@ -3,7 +3,7 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  base:'/CherryBlossomHope',
+  base:'/CherryBlossomHope/',
   title: 'Rspress',
   description: 'Rspack-based Static Site Generator',
   icon: '/rspress-icon.png',
