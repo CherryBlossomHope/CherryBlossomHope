@@ -1,19 +1,19 @@
-### Hi there 👋
+### Hi there 👋 I'm Zoe
 
-**CherryBlossomHope/CherryBlossomHope** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+✨ 我是一名前端开发者
+✨ I want to be an interesting person
 
 <img align="right" width="200" src="./rspress-icon.png"/>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
+- 🔭 I’m currently working on Hangzhou
+- 🌱 I’m currently learning **Rust**
+- 📒 Here are my [Notes](https://cherryblossomhope.github.io/CherryBlossomHope/)
+<!-- - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: ... -->
 
 ![Ant-Design](https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)
@@ -37,3 +37,5 @@ Here are some ideas to get you started:
 
 [![My Skills](https://skillicons.dev/icons?i=webpack,vite&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=wasm)](https://skillicons.dev)
+
+<img align="center"  src="./end.png"/>
