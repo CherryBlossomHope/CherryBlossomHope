@@ -5,15 +5,11 @@
 
 <img align="right" width="200" src="./rspress-icon.png"/>
 
-- 🔭 I’m currently working on Hangzhou
-- 🌱 I’m currently learning **Rust**
+- 🎄 I’m currently working on Hangzhou
+- 🦀 I’m currently learning **Rust**
 - 📒 Here are my [Notes](https://cherryblossomhope.github.io/CherryBlossomHope/)
-<!-- - 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
+- 💬 If you have any questions, you can come to me [Here](https://github.com/CherryBlossomHope/CherryBlossomHope/issues)
+- ⏱️ A [TimerTask](https://www.npmjs.com/package/timertasks) management tool,hope it helps you.
 
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
