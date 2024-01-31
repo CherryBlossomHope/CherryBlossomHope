@@ -1,8 +1,13 @@
 [
   {
-    "text": "Notes",
-    "link": "/notes/",
-    "activeMatch": "/notes/"
+    "text": "Rust Notes",
+    "link": "/rustNotes/",
+    "activeMatch": "/rustNotes/"
+  },
+  {
+    "text": "React Notes",
+    "link": "/reactNotes/hooks",
+    "activeMatch": "/reactNotes/hooks"
   },
   {
     "text": "My Story",

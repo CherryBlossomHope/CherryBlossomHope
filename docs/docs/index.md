@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: /notes/
+      link: /rustNotes/
     - theme: alt
       text: Github
       link: https://github.com/CherryBlossomHope
