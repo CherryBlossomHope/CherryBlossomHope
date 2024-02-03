@@ -33,3 +33,37 @@ const cachedFn = useCallback(fn, dependencies)
 在之后的渲染中, 如果依赖没有改变，`useCallback` 返回上一次渲染中缓存的 `fn` 函数；否则返回这一次渲染传入的 `fn`。
 
 
+
+### useContext
+
+`useContext` 是一个 React Hook，可以让你读取和订阅组件中的 [context](https://zh-hans.react.dev/learn/passing-data-deeply-with-context)。
+
+```js
+const value = useContext(SomeContext)
+```
+
+#### 参数
+
+- `SomeContext`：先前用 [`createContext`](https://zh-hans.react.dev/reference/react/createContext) 创建的 context。context 本身不包含信息，它只代表你可以提供或从组件中读取的信息类型。
+
+#### 返回值
+
+`useContext` 为调用组件返回 context 的值。它被确定为传递给树中调用组件上方最近的 `SomeContext.Provider` 的 `value`。如果没有这样的 provider，那么返回值将会是为创建该 context 传递给 [`createContext`](https://zh-hans.react.dev/reference/react/createContext) 的 `defaultValue`。返回的值始终是最新的。如果 context 发生变化，React 会自动重新渲染读取 context 的组件。
+
+#### 用法
+
+###### 向组件树深层传递数据
+
+在组件的最顶级调用 `useContext` 来读取和订阅 [context](https://zh-hans.react.dev/learn/passing-data-deeply-with-context)。
+
+```js
+import { useContext } from 'react';
+
+function Button() {
+  const theme = useContext(ThemeContext);
+  // ...
+```
+
+`useContext` 返回你向 context 传递的 context value。为了确定 context 值，React 搜索组件树，为这个特定的 context **向上查找最近的** context provider。
+
+若要将 context 传递给 `Button`，请将其或其父组件之一包装到相应的 context provider：
