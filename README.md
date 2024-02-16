@@ -30,6 +30,6 @@
 
 ### other
 
-[![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm,centos,linux,docker)](https://skillicons.dev)
 
 <img align="center"  src="./end.png"/>
