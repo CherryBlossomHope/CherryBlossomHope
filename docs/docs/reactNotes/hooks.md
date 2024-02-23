@@ -250,3 +250,78 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 `useImperativeHandle` 返回 `undefined`。
 
 
+
+### useLayoutEffect
+
+`useLayoutEffect` 是 [`useEffect`](https://zh-hans.react.dev/reference/react/useEffect) 的一个版本，在浏览器重新绘制屏幕之前触发。
+
+```js
+useLayoutEffect(setup, dependencies?)
+```
+
+#### 参考
+
+调用 `useLayoutEffect` 在浏览器重新绘制屏幕之前进行布局测量：
+
+```js
+
+import { useState, useRef, useLayoutEffect } from 'react';
+
+function Tooltip() {
+  const ref = useRef(null);
+  const [tooltipHeight, setTooltipHeight] = useState(0);
+
+  useLayoutEffect(() => {
+    const { height } = ref.current.getBoundingClientRect();
+    setTooltipHeight(height);
+  }, []);
+  // ...
+```
+
+#### 参数
+
+* `setup`：处理副作用的函数。setup 函数选择性返回一个_清理_（cleanup）函数。在将组件首次添加到 DOM 之前，React 将运行 setup 函数。在每次因为依赖项变更而重新渲染后，React 将首先使用旧值运行 cleanup 函数（如果你提供了该函数），然后使用新值运行 setup 函数。在组件从 DOM 中移除之前，React 将最后一次运行 cleanup 函数。
+
+* **可选** `dependencies`：`setup` 代码中引用的所有响应式值的列表。响应式值包括 props、state 以及所有直接在组件内部声明的变量和函数。如果你的代码检查工具 [配置了 React](https://zh-hans.react.dev/learn/editor-setup#linting)，那么它将验证每个响应式值都被正确地指定为一个依赖项。依赖项列表必须具有固定数量的项，并且必须像 `[dep1, dep2, dep3]` 这样内联编写。React 将使用 [`Object.is`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/is) 来比较每个依赖项和它先前的值。如果省略此参数，则在每次重新渲染组件之后，将重新运行副作用函数。
+
+#### 返回值
+
+`useLayoutEffect` 返回 `undefined`。
+
+
+
+### useMemo
+
+`useMemo` 是一个 React Hook，它在每次重新渲染的时候能够缓存计算的结果。
+
+```js
+const cachedValue = useMemo(calculateValue, dependencies)
+```
+
+#### 参考
+
+在组件的顶层调用 `useMemo` 来缓存每次重新渲染都需要计算的结果。
+
+```js
+import { useMemo } from 'react';
+
+function TodoList({ todos, tab }) {
+  const visibleTodos = useMemo(
+    () => filterTodos(todos, tab),
+    [todos, tab]
+  );
+  // ...
+}
+```
+
+#### 参数
+
+* `calculateValue`：要缓存计算值的函数。它应该是一个没有任何参数的纯函数，并且可以返回任意类型。React 将会在首次渲染时调用该函数；在之后的渲染中，如果 `dependencies` 没有发生变化，React 将直接返回相同值。否则，将会再次调用 `calculateValue` 并返回最新结果，然后缓存该结果以便下次重复使用。
+
+* `dependencies`：所有在 `calculateValue` 函数中使用的响应式变量组成的数组。响应式变量包括 props、state 和所有你直接在组件中定义的变量和函数。如果你在代码检查工具中 [配置了 React](https://zh-hans.react.dev/learn/editor-setup#linting)，它将会确保每一个响应式数据都被正确地定义为依赖项。依赖项数组的长度必须是固定的并且必须写成 `[dep1, dep2, dep3]` 这种形式。React 使用 [`Object.is`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/is) 将每个依赖项与其之前的值进行比较。
+
+#### 返回值
+
+在初次渲染时，`useMemo` 返回不带参数调用 `calculateValue` 的结果。
+
+在接下来的渲染中，如果依赖项没有发生改变，它将返回上次缓存的值；否则将再次调用 `calculateValue`，并返回最新结果。
