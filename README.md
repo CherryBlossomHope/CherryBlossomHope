@@ -26,10 +26,10 @@
 
 ### framework
 
-[![My Skills](https://skillicons.dev/icons?i=vue,nuxtjs,react,electron&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,electron&theme=light)](https://skillicons.dev)
 
 ### other
 
-[![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm,linux,docker)](https://skillicons.dev)
 
 <img align="center"  src="./end.png"/>
