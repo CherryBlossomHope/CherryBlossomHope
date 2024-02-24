@@ -10,6 +10,11 @@
     "activeMatch": "/reactNotes/hooks"
   },
   {
+    "text": "Interview",
+    "link": "/interview/html",
+    "activeMatch": "/interview/html"
+  },
+  {
     "text": "My Story",
     "link": "/selfReport/",
     "activeMatch": "/selfReport/"
