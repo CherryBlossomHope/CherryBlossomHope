@@ -10,7 +10,9 @@ const value = use(resource);
 
 当使用 Promise 调用 `use` Hook 时，它会与 [`Suspense`](https://zh-hans.react.dev/reference/react/Suspense) 和 [错误边界](https://zh-hans.react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) 集成。当传递给 `use` 的 Promise 处于 pending 时，调用 `use` 的组件也会 **挂起**。如果调用 `use` 的组件被包装在 Suspense 边界内，将显示后备 UI。一旦 Promise 被解决，Suspense 后备方案将被使用 `use` Hook 返回的数据替换。如果传递给 `use` 的 Promise 被拒绝，将显示最近错误边界的后备 UI。
 
-### useCallback
+
+
+## useCallback
 
 `useCallback` 是一个允许你在多次渲染中缓存函数的 React Hook。
 
@@ -34,7 +36,7 @@ const cachedFn = useCallback(fn, dependencies)
 
 
 
-### useContext
+## useContext
 
 `useContext` 是一个 React Hook，可以让你读取和订阅组件中的 [context](https://zh-hans.react.dev/learn/passing-data-deeply-with-context)。
 
@@ -70,7 +72,7 @@ function Button() {
 
 
 
-#### useDebugValue
+## useDebugValue
 
 `useDebugValue` 是一个 React Hook，可以让你在 [React 开发工具](https://zh-hans.react.dev/learn/react-developer-tools) 中为自定义 Hook 添加标签。
 
@@ -103,7 +105,7 @@ function useOnlineStatus() {
 
 
 
-### useDeferredValue
+## useDeferredValue
 
 `useDeferredValue` 是一个 React Hook，可以让你延迟更新 UI 的某些部分。
 
@@ -137,7 +139,7 @@ function SearchPage() {
 
 
 
-#### useEffect
+## useEffect
 
 `useEffect` 是一个 React Hook，它允许你 [将组件与外部系统同步](https://zh-hans.react.dev/learn/synchronizing-with-effects)。
 
@@ -179,7 +181,9 @@ function ChatRoom({ roomId }) {
 
 `useEffect` 返回 `undefined`。
 
-#### useId
+
+
+## useId
 
 `useId` 是一个 React Hook，可以生成传递给无障碍属性的唯一 ID。
 
@@ -188,8 +192,6 @@ const id = useId()
 ```
 
 #### 参考
-
-### `useId()`
 
 在组件的顶层调用 `useId` 生成唯一 ID：
 
@@ -211,7 +213,7 @@ function PasswordField() {
 
 
 
-#### useImperativeHandle
+## useImperativeHandle
 
 `useImperativeHandle` 是 React 中的一个 Hook，它能让你自定义由 [ref](https://zh-hans.react.dev/learn/manipulating-the-dom-with-refs) 暴露出来的句柄。
 
@@ -251,7 +253,7 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 
 
 
-### useLayoutEffect
+## useLayoutEffect
 
 `useLayoutEffect` 是 [`useEffect`](https://zh-hans.react.dev/reference/react/useEffect) 的一个版本，在浏览器重新绘制屏幕之前触发。
 
@@ -290,7 +292,7 @@ function Tooltip() {
 
 
 
-### useMemo
+## useMemo
 
 `useMemo` 是一个 React Hook，它在每次重新渲染的时候能够缓存计算的结果。
 
