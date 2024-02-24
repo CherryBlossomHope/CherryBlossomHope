@@ -33,12 +33,12 @@
 
 `display:inline-block` 不独占一行，可以设置宽高
 
----
-
 - 空元素：
 
 ```html
 <br /> <hr />
 ```
+
+## HTML 5 新特性
 
 
