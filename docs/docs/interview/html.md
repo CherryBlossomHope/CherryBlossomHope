@@ -41,4 +41,26 @@
 
 ## HTML 5 新特性
 
+- 用于媒体的新元素 `video` `audio`
 
+- 本地存储 `localStorage` 长期存储数据，浏览器关闭数据不消失，除非手动删除
+
+- `sessionStorage` 浏览器关闭数据自动删除
+
+- 增加语义化标签 `article` `footer` `header` `nav` `section`
+
+- 表单控件 `calendar` `date` `time` `email` `url` `search`
+
+- 新技术 `webworker` `websocket` `Geolocation`
+  
+  #### 移除的元素
+  
+  - 纯表现的元素：`basefont` `big` `center` `font` `s` `strike` `tt` `u`
+  
+  - 对可用性产生负面影响的元素：`frame` `frameset` `noframes`
+  
+  #### 支持HTML5新标签
+  
+  - IE6/7/8 支持通过 `document.createElement` 方法产生的标签，可以利用这一特性让浏览器支持HTML5新标签
+  
+  - 或者使用成熟框架
