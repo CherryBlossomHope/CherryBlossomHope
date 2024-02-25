@@ -3,7 +3,7 @@
 ✨ 我是一名前端开发者
 ✨ I want to be an interesting person
 
-<img align="right" width="200" src="./rspress-icon.png"/>
+<img align="right" width="200" src="./image/rspress-icon.png"/>
 
 - 🎄 I’m currently working on Hangzhou
 - 🦀 I’m currently learning **Rust**
@@ -32,4 +32,4 @@
 
 [![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm,linux,docker)](https://skillicons.dev)
 
-<img align="center"  src="./end.png"/>
+<img align="center"  src="./image/end.png"/>

@@ -3,5 +3,10 @@
     "type": "file",
     "name": "html",
     "label": "HTML"
+  },
+  {
+    "type": "file",
+    "name": "css",
+    "label": "CSS"
   }
 ]
