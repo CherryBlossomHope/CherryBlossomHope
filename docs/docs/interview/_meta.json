@@ -8,5 +8,15 @@
     "type": "file",
     "name": "css",
     "label": "CSS"
+  },
+  {
+    "type": "file",
+    "name": "js",
+    "label": "JavaScript"
+  },
+  {
+    "type": "file",
+    "name": "browser",
+    "label": "浏览器&网络"
   }
 ]
