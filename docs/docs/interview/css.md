@@ -1,5 +1,35 @@
 ## CSS 3 新特性
 
+- 圆角（border-radius）：允许你给元素添加圆角，而无需使用图片或其他复杂的方法。
+
+- 阴影（box-shadow 和 text-shadow）：可以给元素或文字添加阴影效果，提升视觉效果。
+
+- 渐变（linear-gradient 和 radial-gradient）：允许你为元素背景设置颜色渐变，增加了设计上的多样性。
+
+- 过渡（transition）：允许你为属性变化设置动画效果，使状态变化更加平滑。
+
+- 动画（@keyframes 和 animation）：允许你创建复杂的动画序列，而无需依赖JavaScript。
+
+- 变形（transform）：允许你对元素进行旋转、缩放、倾斜或平移。
+
+- 弹性盒模型（flexbox）：为布局提供了一种更加灵活和强大的方式，特别是在响应式设计中。
+
+- 网格布局（grid）：提供了一种基于网格的布局系统，使复杂布局的实现变得更加简单。
+
+- 多媒体查询：允许你根据不同的屏幕大小或设备特性应用不同的样式规则，是响应式设计的关键。
+
+- 自定义属性（CSS变量）：允许你定义可以在整个文档中重复使用的变量，简化了样式表的维护。
+
+- 滤镜（filter）：提供了一系列图像处理效果，如模糊、对比度调整等。
+
+- 混合模式（mix-blend-mode）：允许元素与其背景以不同的方式混合。
+
+- 形状（shape-outside）：允许你围绕非矩形形状进行文本布局。
+
+- 计算函数（calc()）：允许你在CSS中进行简单的计算。
+
+- 媒体查询：改进了响应式设计的支持，使得针对不同设备和条件应用不同的样式更加方便。
+
 ## 选择器优先级 样式优先级
 
 - !important
@@ -131,6 +161,27 @@
 
 ## 处理文本超出长度问题
 
+- 单行文本 `text-overflow: ellipsis` 
+  
+  ```css
+  .text-overflow {
+   white-space: nowrap; /* 确保文本在一行内显示 */
+   overflow: hidden; /* 隐藏超出部分 */
+   text-overflow: ellipsis; /* 显示省略号 */
+  }
+  ```
+
+- 多行文本
+  
+  ```css
+  .multi-line-ellipsis {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* 限制为3行 */
+   overflow: hidden;
+  }
+  ```
+
 ## Flex 布局
 
 ## Grid 布局
@@ -140,3 +191,5 @@
 ## 浏览器兼容
 
 ## 背景平铺
+
+
