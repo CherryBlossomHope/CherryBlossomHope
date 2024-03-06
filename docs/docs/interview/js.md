@@ -23,28 +23,28 @@
 ## 深浅拷贝
 
 - 浅拷贝
-
+  
   - 使用`Object.assign`方法
-
+  
   - 使用扩展运算符（...）
-
+  
   - 使用 Array.prototype.slice()或 Array.prototype.concat()进行数组浅拷贝
 
 - 深拷贝
-
+  
   - 使用 JSON.parse(JSON.stringify(obj))（这种方法有局限性，不能拷贝函数、undefined、循环引用等）
-
+  
   - 使用递归函数手动实现深拷贝
-
+  
   - 使用第三方库，如 lodash 的\_.cloneDeep 方法
-
+  
   - 原生深拷贝`structuredClone`
 
 ## 数组扁平化
 
 - 使用`Array.prototype.flat()`
   ES2019 引入了 Array.prototype.flat()方法，可以用来扁平化数组。
-
+  
   ```js
   const arr = [1, [2, [3, [4]], 5]];
   const flatArr = arr.flat(Infinity); // 使用Infinity作为深度，扁平化所有层级
@@ -52,7 +52,7 @@
   ```
 
 - 使用`Array.prototype.reduce()`和`Array.prototype.concat()`
-
+  
   ```js
   const arr = [1, [2, [3, [4]], 5]];
   const flatArr = arr.reduce(
@@ -63,7 +63,7 @@
   ```
 
 - 使用递归
-
+  
   ```js
   function flattenArray(arr) {
     let result = [];
@@ -76,14 +76,14 @@
     });
     return result;
   }
-
+  
   const arr = [1, [2, [3, [4]], 5]];
   const flatArr = flattenArray(arr);
   console.log(flatArr); // 输出：[1, 2, 3, 4, 5]
   ```
 
 - 使用`Array.prototype.some()`和`Array.prototype.concat()`
-
+  
   ```js
   function flattenArray(arr) {
     while (arr.some((item) => Array.isArray(item))) {
@@ -91,7 +91,7 @@
     }
     return arr;
   }
-
+  
   const arr = [1, [2, [3, [4]], 5]];
   const flatArr = flattenArray(arr);
   console.log(flatArr); // 输出：[1, 2, 3, 4, 5]
@@ -151,3 +151,7 @@ typeof null; // 输出："object" (历史上的错误，现在被视为JavaScrip
 ### `Promise.any()`
 
 ## 改变 this 指向
+
+## 延迟加载 JS
+
+
