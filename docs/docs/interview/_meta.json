@@ -16,6 +16,11 @@
   },
   {
     "type": "file",
+    "name": "ts",
+    "label": "TypeScript"
+  },
+  {
+    "type": "file",
     "name": "browser",
     "label": "浏览器&网络"
   }
