@@ -146,12 +146,24 @@ typeof null; // 输出："object" (历史上的错误，现在被视为JavaScrip
 
 ### `Promise.all()`
 
+当传入的所有 Promise 都成功解决时，返回一个解决的 Promise，其结果是一个包含所有传入 Promise 解决值的数组。如果传入的任意一个 Promise 被拒绝，那么返回的 Promise 就会立即被拒绝，并返回第一个被拒绝的 Promise 的理由。
+
 ### `Promise.race()`
 
+返回一个 Promise，它将与第一个解决或拒绝的 Promise 同步解决或拒绝。
+
 ### `Promise.any()`
+
+当传入的任意一个 Promise 成功解决后，返回一个解决的 Promise，其值是第一个成功解决的 Promise 的值。如果所有 Promise 都被拒绝，则返回的 Promise 会被拒绝，并且会抛出一个 AggregateError，这个错误包含了所有 Promise 的拒绝理由。
 
 ## 改变 this 指向
 
 ## 延迟加载 JS
 
+- 动态插入 script 标签： 可以通过 JavaScript 动态创建一个 script 标签，并将其添加到文档中。这样，只有在执行这段代码时，JavaScript 文件才会被加载。
 
+- 滚动事件监听： 可以监听用户的滚动事件，当用户滚动到页面某个特定位置时，加载对应的 JavaScript 文件。
+
+- Intersection Observer API： 这是一个现代的浏览器 API，可以自动“观察”元素是否进入了视口（viewport），而无需监听滚动事件。当元素进入视口时，可以触发加载 JavaScript。
+
+- defer 和 async 属性： 在 HTML script 标签中，可以使用 defer 或 async 属性来延迟加载脚本。defer 属性表示脚本将在文档完全解析后执行，而 async 属性表示脚本将在准备好后立即执行，不会阻塞页面渲染。
