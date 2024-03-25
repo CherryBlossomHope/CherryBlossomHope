@@ -26,7 +26,7 @@
 
 ### framework
 
-[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,electron&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,nextjs,electron&theme=light)](https://skillicons.dev)
 
 ### other
 
