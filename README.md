@@ -20,7 +20,7 @@
 
 ### language
 
-<img align="right" width="450" src="https://github-readme-stats.vercel.app/api?username=CherryBlossomHope&show_icons=true&icon_color=0078e7&title_color=0078e7&include_all_commits=true"/>
+<img align="right" width="450" src="https://github-readme-stats.vercel.app/api?username=MissGwen&show_icons=true&icon_color=0078e7&title_color=0078e7&include_all_commits=true"/>
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,rust,go)](https://skillicons.dev)
 
