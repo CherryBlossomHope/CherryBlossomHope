@@ -26,10 +26,12 @@
 
 ### framework
 
-[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,nextjs,electron&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,nextjs,electron,nest&theme=light)](https://skillicons.dev)
 
 ### other
 
 [![My Skills](https://skillicons.dev/icons?i=webpack,vite,bun,deno,nodejs,github,vscode,wasm,linux,docker)](https://skillicons.dev)
 
+### database
+[![My Skills](https://skillicons.dev/icons?i=mysql,sqlite,redis,mongodb&theme=light)](https://skillicons.dev)
 <img align="center"  src="./image/end.png"/>

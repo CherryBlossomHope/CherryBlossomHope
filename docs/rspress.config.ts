@@ -3,7 +3,7 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  base:'/CherryBlossomHope/',
+  base:'/MissGwen/',
   title: 'Rspress',
   description: 'Rspack-based Static Site Generator',
   icon: '/rspress-icon.png',
@@ -13,7 +13,7 @@ export default defineConfig({
   },
   themeConfig: {
     socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/CherryBlossomHope' },
+      { icon: 'github', mode: 'link', content: 'https://github.com/MissGwen' },
     ],
   },
 });
