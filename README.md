@@ -7,13 +7,12 @@
 
 - 🎄 I’m currently working on Hangzhou
 - 🦀 I’m currently learning **Rust**
-- 📒 Here are my [Notes](https://cherryblossomhope.github.io/CherryBlossomHope/)
-- 💬 If you have any questions, you can come to me [Here](https://github.com/CherryBlossomHope/CherryBlossomHope/issues)
+- 📒 Here are my [Notes](https://missgwen.github.io/MissGwen/)
+- 💬 If you have any questions, you can come to me [Here](https://github.com/MissGwen/MissGwen/issues)
 - ⏱️ A [TimerTask](https://www.npmjs.com/package/timertasks) management tool,hope it helps you.
 
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
@@ -26,7 +25,7 @@
 
 ### framework
 
-[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,nextjs,electron,nest&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,react,svelte,nuxtjs,nextjs,electron&theme=light)](https://skillicons.dev)
 
 ### other
 
@@ -34,4 +33,6 @@
 
 ### database
 [![My Skills](https://skillicons.dev/icons?i=mysql,sqlite,redis,mongodb&theme=light)](https://skillicons.dev)
+
+
 <img align="center"  src="./image/end.png"/>
