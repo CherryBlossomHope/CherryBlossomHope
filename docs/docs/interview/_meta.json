@@ -28,5 +28,10 @@
     "type": "file",
     "name": "engineering",
     "label": "工程化"
+  },
+  {
+    "type": "file",
+    "name": "vue",
+    "label": "Vue"
   }
 ]

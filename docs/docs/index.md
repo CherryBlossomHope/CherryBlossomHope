@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: Rust
   text: Rust WebAssembly study notes
-  tagline: Shiina Mashiro
+  tagline: Miss Gwen 🍩🍪
   actions:
     - theme: brand
       text: Quick Start
