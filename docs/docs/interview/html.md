@@ -1,11 +1,11 @@
 ## HTML 语义化标签
 
 ```html
-<title> <h1> ~ </h6> <ul> <li> 
+<title> <h1> ~ </h6> <ul> <li>
 <header> <nav> <main> <article> <section> <aside> <footer>
 ```
 
-好处：容易阅读 易于SEO
+好处：容易阅读 易于 SEO
 
 ## 块元素，行内元素，行内块元素，空（void）元素
 
@@ -20,7 +20,7 @@
 - 行内元素：
 
 ```html
-<a> <span> <i> <em> <strong> <lable>
+<a></a> <span></span> <i></i> <em></em> <strong></strong> <lable></lable>
 ```
 
 `display:inline` 不独占一行，设置宽高无效，宽高由内容决定
@@ -28,7 +28,7 @@
 - 行内块元素：
 
 ```html
-<input> <img>
+<input /> <img />
 ```
 
 `display:inline-block` 不独占一行，可以设置宽高
@@ -36,7 +36,8 @@
 - 空元素：
 
 ```html
-<br /> <hr />
+<br />
+<hr />
 ```
 
 ## HTML 5 新特性
@@ -52,15 +53,15 @@
 - 表单控件 `calendar` `date` `time` `email` `url` `search`
 
 - 新技术 `webworker` `websocket` `Geolocation`
-  
+
   #### 移除的元素
-  
+
   - 纯表现的元素：`basefont` `big` `center` `font` `s` `strike` `tt` `u`
-  
+
   - 对可用性产生负面影响的元素：`frame` `frameset` `noframes`
-  
-  #### 支持HTML5新标签
-  
-  - IE6/7/8 支持通过 `document.createElement` 方法产生的标签，可以利用这一特性让浏览器支持HTML5新标签
-  
+
+  #### 支持 HTML5 新标签
+
+  - IE6/7/8 支持通过 `document.createElement` 方法产生的标签，可以利用这一特性让浏览器支持 HTML5 新标签
+
   - 或者使用成熟框架
